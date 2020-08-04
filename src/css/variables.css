@@ -1,0 +1,101 @@
+/*
+ * === VARIABLES ===
+*/
+
+:root {
+  /* Greyscale */
+
+  --black:                 #000;
+  --gray-darker:           #0a0a0a;
+  --gray-dark:             #3a3a3a;
+  --gray:                  #666;
+  --gray-light:            #999;
+  --gray-lighter:          #ccc;
+  --white:                 #fff;
+
+  /* Accent colors */
+
+  /* --***:                #***; */
+
+  /* Scaffolding */
+
+  --body-background:        var(--white);
+  --border-color:           color(var(--white) alpha(-85%));
+  --body-border-color:      var(--gray-dark);
+  --selection-background:   #a8d1ff;
+  --text-color:             var(--black);
+
+  /* Links */
+
+  --link-color:             #0366d6;
+
+  /* Typography */
+
+  --font-family-san-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-serif:      -apple-system, BlinkMacSystemFont, Georgia, "Times New Roman", Times, serif, "Apple Color Emoji";
+  --font-family-base:       var(--font-family-serif);
+  --font-size-base:         20px;
+  --line-height-base:       1.5; /* 24/16 */
+
+  /* Weights */
+
+  --font-weight-thin:       100;
+  --font-weight-extralight: 200;
+  --font-weight-ultralight: 200;
+  --font-weight-light:      300;
+  --font-weight-book:       400;
+  --font-weight-normal:     400;
+  --font-weight-regular:    400;
+  --font-weight-roman:      400;
+  --font-weight-medium:     500;
+  --font-weight-semibold:   600;
+  --font-weight-demibold:   600;
+  --font-weight-bold:       700;
+  --font-weight-extrabold:  800;
+  --font-weight-ultrabold:  800;
+  --font-weight-black:      900;
+  --font-weight-heavy:      900;
+  --font-weight-base:       var(--font-weight-book);
+
+  /* Display titles */
+
+  --display1-size:          47px;
+  --display1-weight:        var(--font-weight-bold);
+
+  /* Spacing */
+
+  --spacing-4:              4px;
+  --spacing-8:              8px;
+  --spacing-16:             16px;
+  --spacing-24:             24px;
+  --spacing-32:             32px;
+  --spacing-40:             40px;
+  --spacing-48:             48px;
+  --spacing-56:             56px;
+  --spacing-64:             64px;
+  --spacing-72:             72px;
+  --spacing-80:             80px;
+
+  /* Breakpoints */
+
+  /*
+    --viewport-xs-min (min-width: 768px);
+    --viewport-sm-min (min-width: 768px);
+    --viewport-md-min (min-width: 992px);
+    --viewport-lg-min (min-width: 1200px);
+
+  So media queries don't overlap when required, provide a maximum
+
+    --viewport-xxs-max (max-width: 479px);
+    --viewport-xs-max (max-width: 767px);
+    --viewport-sm-max (max-width: 991px);
+    --viewport-md-max (max-width: 1199px);
+  */
+
+
+  /* Misc. */
+
+  --lead-size:              34px;
+  --lead-weight:            var(--font-weight-book);
+  --lead-line-height:       1.3;
+}

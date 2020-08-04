@@ -1,0 +1,21 @@
+/*
+ * === IMAGES ===
+*/
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/*
+ * — Utilities —
+*/
+
+.u-img-rounded {
+  border-radius: 50%;
+}
+
+.u-thumb {
+  margin-bottom: var(--spacing-16);
+}

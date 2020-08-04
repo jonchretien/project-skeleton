@@ -1,0 +1,71 @@
+/*
+ * === SCAFFOLDING ===
+*/
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--body-background);
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  padding: var(--spacing-40);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: var(--spacing-56);
+  }
+}
+
+/*
+ * — User Selection —
+*/
+
+::selection {
+  background: var(--selection-background);
+  color: var(--white);
+  text-shadow: none;
+}
+
+/*
+ * — Links —
+*/
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+a > img {
+  /* fix for pixel shift on img hover */
+  backface-visibility: hidden;
+  transition: opacity 0.3s linear;
+
+}
+
+a > img:hover {
+  opacity: 0.65;
+}
+
+/*
+ * — Shell —
+*/
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}

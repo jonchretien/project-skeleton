@@ -1,0 +1,16 @@
+/*
+ * === BANNER ===
+*/
+
+.banner {
+  margin-bottom: var(--spacing-48);
+  padding-bottom: var(--spacing-48);
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .banner {
+    margin-bottom: var(--spacing-56);
+    padding-bottom: var(--spacing-72);
+  }
+}

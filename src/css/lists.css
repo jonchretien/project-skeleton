@@ -1,0 +1,35 @@
+/*
+ * === Lists ===
+*/
+
+/*
+ * — Unordered lists —
+*/
+
+ul {
+  margin-left: var(--spacing-16);
+}
+
+/*
+ * — Unstyled lists —
+*/
+
+.u-list-unstyled {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/*
+ * — Inline lists —
+*/
+
+.u-list-inline {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.u-list-inline li + li {
+  margin-left: var(--spacing-24);
+}

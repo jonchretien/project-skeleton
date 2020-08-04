@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Project Title</title>
+    <meta name="author" content="Jon Chretien" />
+    <meta name="description" content="..." />
+    <meta name="keywords" content="..." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/bundle.css" media="all" />
+    <link rel="author" href="/humans.txt" type="text/plain" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="banner">
+        <h1 class="banner__title lead">
+          Banner title
+        </h1>
+      </header>
+      <section class="main">
+        Section content
+      </section>
+      <footer class="footer">
+        <nav>
+          <ul class="footer__list u-list-unstyled u-list-inline">
+            <li class="footer__list-item">
+              link 1
+            </li>
+            <li class="footer__list-item">
+              link 2
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__copyright">
+          &copy; Jon Chretien&nbsp;<span id="copyright"></span>
+          <script>
+            (function () {
+              document.getElementById(
+                "copyright"
+              ).textContent = new Date().getFullYear();
+            })();
+          </script>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/js/index.js"></script>
+  </body>
+</html>

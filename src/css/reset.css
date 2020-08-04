@@ -1,0 +1,75 @@
+/*
+ * === RESET ===
+ * adapted from Meyer Web and CSS Wizardy
+ * http://meyerweb.com/eric/tools/css/reset/
+ * http://csswizardry.com/2011/10/reset-restarted
+*/
+
+/*
+ * — Unversal box sizing —
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+ * — Element spacing —
+*/
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+li,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * — Type —
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+/*
+ * — Remove underlines from potentially troublesome elements —
+*/
+
+a {
+  text-decoration: none;
+}
+
+/*
+ * — So that `alt` text is visually offset if images don’t load —
+*/
+
+img {
+  border: none;
+  font-style: italic;
+}

@@ -1,0 +1,48 @@
+/*
+ * === TYPE ===
+*/
+
+/*
+ * — Headings —
+*/
+
+h1,
+h2 {
+  color: var(--white);
+  font-size: 47px;
+  font-weight: var(--font-weight-bold);
+}
+
+h3 {
+  font-weight: var(--font-weight-book);
+}
+
+/*
+ * — Display titles —
+*/
+
+.display-1 {
+  color: var(--white);
+  display: inline-block;
+  font-size: var(--display1-size);
+  font-weight: var(--display1-weight);
+}
+
+/*
+ * — Lead text —
+*/
+
+.lead {
+  color: var(--gray-lighter);
+  font-size: 24px;
+  font-weight: var(--lead-weight);
+  line-height: var(--lead-line-height);
+  padding: 0  var(--spacing-32);
+
+}
+
+@media (min-width: 768px) {
+  .lead{
+    font-size: var(--lead-size);
+  }
+}

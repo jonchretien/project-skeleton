@@ -1,0 +1,39 @@
+ _    _      _ _
+| |  | |    | | |
+| |__| | ___| | | ___
+|  __  |/ _ \ | |/ _ \
+| |  | |  __/ | | (_) |
+|_|  |_|\___|_|_|\___/
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site.
+
+_______________________________________________________________________________
+
+Jon Chretien
+Design & web development
+jonchretien.com
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+cssnano
+https://cssnano.co
+
+http-server
+https://github.com/indexzero/http-server
+
+Node
+https://nodejs.org
+
+Nodemon
+https://nodemon.io
+
+PostCSS
+https://postcss.org
+
+_______________________________________________________________________________
+
+IDE
+Visual Studio Code w/Material Theme

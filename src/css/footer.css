@@ -1,0 +1,29 @@
+/*
+ * === Footer ===
+*/
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    padding-top: 10px;
+  }
+}
+
+.footer__copyright {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 1 1 0%;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__list,
+  .footer__copyright {
+      justify-content: center;
+    }
+}
