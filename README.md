@@ -1,4 +1,4 @@
-# Project Skeleton
+# 🛠 Project Skeleton
 
 A starter template to get a vanilla JS and CSS project up and running. This template assumes you don't need to support legacy browsers. Here's what the template does **not** do:
 - ES2015+ is not compiled to legacy browser-compatible JavaScript.
